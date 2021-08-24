@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display";
+}
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+p.intro {
+  font-size: 1rem;
+  text-align: center;
+  width: 70%;
+  max-width: 350px;
+  margin: 30px auto;
+  color: hsl(224, 23%, 55%);
+}
+.square2 {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 25px;
+  width: 80%;
+  height: 40%;
+  margin: 15px auto;
+  position: relative;
+  text-align: left;
+}
+
+.square2 > * {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.center {
+  margin: 50px auto 20px auto;
+  background-color: white;
+  border-radius: 25px;
+  width: 50%;
+  max-width: 680px;
+  height: 70%;
+
+  padding-bottom: 30px;
+}
+.music {
+  position: relative;
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+a.change:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+.cancel-order {
+  margin: 15px auto;
+}
+a.cancel-order:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+.price {
+  color: hsl(224, 23%, 55%);
+}
+button {
+  background-color: #776cf1;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  width: 80%;
+  height: 3rem;
+  margin: 30px auto;
+}
+button:hover {
+  box-shadow: rgba(119, 108, 241, 0.2) 0px 25px 10px -12px;
+  cursor: pointer;
+}
+.pricing {
+  width: calc(100% - 200px);
+  text-align: left;
+  padding-left: 10px;
+}
+
+.pricing h3 {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.pricing p {
+  margin-top: 0;
+}
